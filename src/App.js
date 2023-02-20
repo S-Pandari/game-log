@@ -5,7 +5,6 @@ import ScrollableList from './components/ScrollableList'
 function App() {
   return ( 
     <>
-    <NavBar />
     <div>
       <ScrollableList />
     </div>
