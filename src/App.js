@@ -1,10 +1,11 @@
 import './App.css';
-import NavBar from './components/NavBar';
-import ScrollableList from './components/ScrollableList'
+import NavBar from './components/NavBar/NavBar';
+import ScrollableList from './components/ScrollableList/ScrollableList'
 
 function App() {
   return ( 
     <>
+    <NavBar/>
     <div>
       <ScrollableList />
     </div>

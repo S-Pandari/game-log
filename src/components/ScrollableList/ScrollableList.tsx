@@ -1,7 +1,7 @@
 import { Button, IconButton, ImageList, ImageListItem, ImageListItemBar, ListSubheader } from '@mui/material'
-import { GetData } from '../utils/RequestAPI';
+import { GetData } from '../../utils/RequestAPI';
 import React, { useState, useEffect } from 'react';
-import { GameData } from '../interfaces/interfaces';
+import { GameData } from '../../interfaces/interfaces';
 
 
 
