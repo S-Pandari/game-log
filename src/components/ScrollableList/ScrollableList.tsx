@@ -12,6 +12,7 @@ function ScrollableList() {
   const url = 'https://api.rawg.io/api';
   const params = 'games'
   const key = 'fa18466671df40f3991952f8a57594dd'
+
   const ClickFunction = () => {
     GetData(url, params, key, setData);
     //@ts-ignore
