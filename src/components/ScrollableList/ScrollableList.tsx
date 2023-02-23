@@ -11,7 +11,7 @@ function ScrollableList() {
   const [gameObject, setGameObject] = useState<GameData[]>([]);
   const url = 'https://api.rawg.io/api';
   const params = 'games'
-  const key = 'fa18466671df40f3991952f8a57594dd'
+  const key = ''
 
   const ClickFunction = () => {
     GetData(url, params, key, setData);
